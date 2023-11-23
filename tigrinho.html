@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigrinho</title>
+    <link rel="stylesheet" href="pagina-inicial.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav id="pagina-inicial-menu">
+        <ul>
+            <li id=""><a href="index.html">Inicio</a></li>
+            <li id="saldo2"><a href="">ﾠSaldo<div id="saldo"></div></a></li>
+            <li id="depositar"><a href="depositar.html">Depositar</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="flex">
+            <div class="borda">
+                <div class="coluna">
+                    <div id="linha1">
+                        <div id="imagem1"></div>
+                    </div>
+                    <div id="linha4">
+                        <div id="imagem4"></div>
+                    </div>
+                    <div id="linha7">
+                        <div id="imagem7"></div>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div id="linha2">
+                        <div id="imagem2"></div>
+                    </div>
+                    <div id="linha5">
+                        <div id="imagem5"></div>
+                    </div>
+                    <div id="linha8">
+                        <div id="imagem8"></div>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div id="linha3">
+                        <div id="imagem3"></div>
+                    </div>
+                    <div id="linha6">
+                        <div id="imagem6"></div>
+                    </div>
+                    <div id="linha9">
+                        <div id="imagem9"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="botoes">
+
+                <div class="selectValor">
+                    <select id="aposta" onchange="">
+                        <option value="1">R$1,00</option>
+                        <option value="2">R$2,00</option>
+                        <option value="5">R$5,00</option>
+                        <option value="10">R$10,00</option>
+                        <option value="20">R$20,00</option>
+                        <option value="50">R$50,00</option>
+                        <option value="70">R$70,00</option>
+                        <option value="100">R$100,00</option>
+                    </select>
+                </div>
+                <button id="butao-tigrinho" onclick="botao(),sorteio()" class="apostar"></button>
+            </div>
+        </div>
+    </div>
+    <div class="ganho">
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#linha1,
+#linha2,
+#linha3 {
+    display: flex;
+    width: 100%;
+    padding-top: -9px;
+}
+
+#linha4,
+#linha5,
+#linha6 {
+    display: flex;
+    width: 100%;
+}
+
+#linha7,
+#linha8,
+#linha9 {
+    display: flex;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+#pagina-inicial-menu {
+    background-color: rgb(37, 37, 39);
+}
+
+#pagina-inicial-menuul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#pagina-inicial-menu ul li {
+    display: inline;
+}
+
+#pagina-inicial-menu ul li a {
+    color: #FFF;
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .2s;
+}
+
+#pagina-inicial-menu ul li a:hover {
+    color: rgb(224, 124, 9);
+}
+
+#depositar {
+    float: right;
+}
+
+#saldo2 {
+    float: right;
+}
+
+
+.tigrinho {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+
+.apostar {
+    width: 70px;
+    height: 70px;
+    color: rgb(224, 124, 9);
+    background-color: rgb(224, 124, 9);
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.container {
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.coluna {
+    border: 4px solid white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    border-radius: 10px;
+    background-color: rgb(30, 30, 30);
+}
+
+.borda {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 6px solid rgb(224, 124, 9);
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(224, 124, 9);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 13em 0 0em;
+    justify-content: center;
+}
+
+select {
+    background-color: rgb(224, 124, 9);
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1366px) {
+    .container {
+      margin-top: 10px;
+      margin-left: 70px;
+    }
+}
+  
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pulsar2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+

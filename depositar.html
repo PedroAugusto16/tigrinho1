@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tigrinho</title>
+    <link rel="stylesheet" href="pagina-inicial.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<style>
+
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 165px;
+        margin-left: 140px;
+    }
+
+    h3{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    }
+
+    .caixa{
+        display: flex;
+        border-radius: 5px;
+        font-size: 25px;
+        margin-top: 13px;
+    }
+
+    button {
+        color: white;
+        font-size: 25px;
+        background-color: rgb(224, 124, 9);
+        border: 2px solid rgb(224, 124, 9);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        margin-top: 13px;
+    }
+</style>
+
+<body>
+    <nav id="pagina-inicial-menu">
+        <ul>
+            <li id=""><a href="index.html">Inicio</a></li>
+            <li id="saldo2"><a href="">ﾠSaldo<div id="saldo"></div></a></li>
+        </ul>
+    </nav>
+
+    <div class="container2">
+        <div class="flex2">
+            <h3 class="titulo">O QUANTO DESEJA DEPOSITAR?</h3>
+            <input type="number" id="valorAdicionar" class="caixa">
+            <button onclick="salvaDeposito()">Depositar</button>
+        </div>
+    </div>
+</body>
+
+</html>
